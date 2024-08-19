@@ -58,7 +58,7 @@ const Home = () => {
           
             
           
-          <h1 className="text-white text-5xl font-bold ">Welcome to My </h1><br/>
+          <h1 className="text-white text-5xl font-bold ">Welcome to My Portfolio</h1><br/>
           <h3 className="text-white text-5xl font-bold">I am Chanuka Lakshan</h3>
           <p className="text-gray-300 mt-4">Discover my work and skills</p><br/>
           <a href="#about" className="mt-6 px-4 py-2 bg-indigo-600 text-white font-bold rounded"> More</a>
