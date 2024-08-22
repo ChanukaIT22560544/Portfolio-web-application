@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   build: {
     rollupOptions: {
-      external: ['/node_modules/emailjs-com', 'react-toastify'],
+      external: ['emailjs-com', 'react-toastify'],
     },
   },
 })
