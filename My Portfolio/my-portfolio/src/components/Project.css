@@ -1,0 +1,27 @@
+/* Add this to your Home.css or a new CSS file */
+
+.project-box {
+    transform: scale(1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .project-box:hover {
+    transform: scale(1.1); /* Slightly enlarges the project box */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2); /* Adds a stronger shadow */
+  }
+  
+
+  /* Add this to your Home.css or a new CSS file */
+
+.project-box {
+    transform: scale(1) rotate(0deg); /* Initial scale and rotation */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    /* Ensure the box's perspective is set properly */
+    perspective: 1000px;
+  }
+  
+  .project-box:hover {
+    transform: scale(1.05) rotate(1deg); /* Slightly enlarge and rotate */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2); /* Adds a stronger shadow */
+  }
+  

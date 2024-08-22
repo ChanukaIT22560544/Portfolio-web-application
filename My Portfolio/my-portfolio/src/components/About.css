@@ -1,0 +1,10 @@
+.img {
+    transform: scale(0.8);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .img:hover {
+    transform: scale(0.82); /* Slightly enlarges the project box */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2); /* Adds a stronger shadow */
+  }
+  

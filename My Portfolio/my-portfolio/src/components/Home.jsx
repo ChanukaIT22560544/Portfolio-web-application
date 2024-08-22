@@ -52,7 +52,7 @@ const Home = () => {
   }, []);
 
   return (
-    <section id="home" className="relative h-[100vh] md:h-[110vh] lg:h-[120vh]">
+    <section id="home" className="relative h-[80vh] md:h-[110vh] lg:h-[120vh]">
       <div className="my-portfolio/public/my image.png"></div>
       <div id="three-container" className=""></div>
       <div className="flex items-center justify-center h-full w-full bg-gray-900 bg-opacity-0 absolute top-0 left-0">
